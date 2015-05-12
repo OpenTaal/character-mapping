@@ -185,7 +185,6 @@ Z	LEAVE	QWERTY	....
 }	DELETE	QWERTY	right curly bracket
 <	DELETE	QWERTY	less-than sign
 >	DELETE	QWERTY	greater-than sign
-"	DELETE	QWERTY	quotation mark
 ^	DELETE	QWERTY	circumflex accent
 ~	DELETE	QWERTY	tilde
 ˜	DELETE	....	small tilde
