@@ -1,5 +1,5 @@
 # character	# substitution	# keyboard	# description
-#	#	#	#	IGNORING CORRECT CHARACTERS
+#	#	#	# IGNORING CORRECT CHARACTERS
 ?	LEAVE	QWERTY	question mark
 +	LEAVE	QWERTY	....
 ⁰	LEAVE	compose	....
@@ -168,7 +168,7 @@ Y	LEAVE	QWERTY	....
 ζ	LEAVE	....	....
 z	LEAVE	QWERTY	....
 Z	LEAVE	QWERTY	....
-#	#	#	#	DELETING TYPOGRAPHIC CHARACTERS
+#	#	#	# DELETING TYPOGRAPHIC CHARACTERS
 ·	DELETE	....	middle dot
 •	DELETE	....	bullet
 ⸱	DELETE	....	word separator middle dot
@@ -206,9 +206,9 @@ Z	LEAVE	QWERTY	....
 ¤	DELETE	....	curency sign
 ¡	DELETE	....	....
 ¿	DELETE	....	....
-#	#	#	#	REPLACING ENCODING ERRORS
+#	#	#	# REPLACING ENCODING ERRORS
 þ	?	....	latin small letter thorn (handcrþme, faþade)
-#	#	#	#	REPLACING TYPOGRAPHIC CHARACTERS (word chars?)
+#	#	#	# REPLACING TYPOGRAPHIC CHARACTERS (word chars?)
 HT	 	....	character tabulation
 LF	 	....	life feed
 LT	 	....	line tabulation
@@ -225,7 +225,7 @@ _	-	QWERTY	low line
 –	-	....	en dash
 —	-	....	em dash
 ―	-	....	horizontal bar
-    ‑	-	....	non-breaking hyphen
+‑	-	....	non-breaking hyphen
 $	DELETE	QWERTY	dollar sign
 ¢	cent	....	cent sign
 €	euro	QWERTY	euro sign
@@ -233,7 +233,7 @@ $	DELETE	QWERTY	dollar sign
 ₤	pond	....	lira sign
 ƒ	gulden	....	latin small letter script
 ſ	s	....	latin small letter long s
-#	#	#	#	REPLACING LIGATURE CHARACTERS
+#	#	#	# REPLACING LIGATURE CHARACTERS
 ĳ	ij	compose	....
 Ĳ	IJ	compose	....
 ß	ss	QEWRTZ	latin small letter sharp s
@@ -275,7 +275,7 @@ $	DELETE	QWERTY	dollar sign
 ʧ	ts	....	....
 ʪ	ls	....	....
 ʫ	lz	....	....
-#	#	#	#	REDUCTION WORD CHARACTERS
+#	#	#	# REDUCTION WORD CHARACTERS
 &	REDUCE	QWERTY	ampersand
 /	REDUCE	QWERTY	solidus
 ,	REDUCE	QWERTY	comma
