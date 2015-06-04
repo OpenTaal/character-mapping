@@ -6,21 +6,9 @@ label="Character mapping"
 labelloc="c"
 node [shape="box" fontsize=24 ]
 "'" [label=<<b>'</b><br/><font point-size="8">apostrophe</font>> ]
-"?" [label=<<b>?</b><br/><font point-size="8">question<br/>mark</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">space</font>> ]
 "/" [label=<<b>/</b><br/><font point-size="8">solidus</font>> ]
 "-" [label=<<b>-</b><br/><font point-size="8">hyphen-minus</font>> ]
-"cent" [label=<<b>cent</b>> ]
-"euro" [label=<<b>euro</b>> ]
-"pond" [label=<<b>pond</b>> ]
-"gulden" [label=<<b>gulden</b>> ]
 "s" [label=<<b>s</b><br/><font point-size="8">latin<br/>small<br/>letter s</font>> ]
-"I" [label=<<b>I</b><br/><font point-size="8">latin<br/>capital<br/>letter i</font>> ]
-"i" [label=<<b>i</b><br/><font point-size="8">latin<br/>small<br/>letter i</font>> ]
-"L" [label=<<b>L</b><br/><font point-size="8">latin<br/>capital<br/>letter l</font>> ]
-"l" [label=<<b>l</b><br/><font point-size="8">latin<br/>small<br/>letter l</font>> ]
-"IJ" [label=<<b>IJ</b>> ]
-"ij" [label=<<b>ij</b>> ]
 "A" [label=<<b>A</b><br/><font point-size="8">latin<br/>capital<br/>letter a</font>> ]
 "a" [label=<<b>a</b><br/><font point-size="8">latin<br/>small<br/>letter a</font>> ]
 "C" [label=<<b>C</b><br/><font point-size="8">latin<br/>capital<br/>letter c</font>> ]
@@ -31,12 +19,31 @@ node [shape="box" fontsize=24 ]
 "g" [label=<<b>g</b><br/><font point-size="8">latin<br/>small<br/>letter g</font>> ]
 "H" [label=<<b>H</b><br/><font point-size="8">latin<br/>capital<br/>letter h</font>> ]
 "h" [label=<<b>h</b><br/><font point-size="8">latin<br/>small<br/>letter h</font>> ]
+"I" [label=<<b>I</b><br/><font point-size="8">latin<br/>capital<br/>letter i</font>> ]
+"i" [label=<<b>i</b><br/><font point-size="8">latin<br/>small<br/>letter i</font>> ]
 "J" [label=<<b>J</b><br/><font point-size="8">latin<br/>capital<br/>letter j</font>> ]
 "j" [label=<<b>j</b><br/><font point-size="8">latin<br/>small<br/>letter j</font>> ]
 "K" [label=<<b>K</b><br/><font point-size="8">latin<br/>capital<br/>letter k</font>> ]
 "k" [label=<<b>k</b><br/><font point-size="8">latin<br/>small<br/>letter k</font>> ]
+"L" [label=<<b>L</b><br/><font point-size="8">latin<br/>capital<br/>letter l</font>> ]
+"l" [label=<<b>l</b><br/><font point-size="8">latin<br/>small<br/>letter l</font>> ]
+"M" [label=<<b>M</b><br/><font point-size="8">latin<br/>capital<br/>letter m</font>> ]
+"m" [label=<<b>m</b><br/><font point-size="8">latin<br/>small<br/>letter m</font>> ]
+"N" [label=<<b>N</b><br/><font point-size="8">latin<br/>capital<br/>letter n</font>> ]
+"n" [label=<<b>n</b><br/><font point-size="8">latin<br/>small<br/>letter n</font>> ]
+"P" [label=<<b>P</b><br/><font point-size="8">latin<br/>capital<br/>letter p</font>> ]
+"p" [label=<<b>p</b><br/><font point-size="8">latin<br/>small<br/>letter p</font>> ]
+"R" [label=<<b>R</b><br/><font point-size="8">latin<br/>capital<br/>letter r</font>> ]
+"r" [label=<<b>r</b><br/><font point-size="8">latin<br/>small<br/>letter r</font>> ]
+"S" [label=<<b>S</b><br/><font point-size="8">latin<br/>capital<br/>letter s</font>> ]
+"W" [label=<<b>W</b><br/><font point-size="8">latin<br/>capital<br/>letter w</font>> ]
+"w" [label=<<b>w</b><br/><font point-size="8">latin<br/>small<br/>letter w</font>> ]
 "Y" [label=<<b>Y</b><br/><font point-size="8">latin<br/>capital<br/>letter y</font>> ]
 "y" [label=<<b>y</b><br/><font point-size="8">latin<br/>small<br/>letter y</font>> ]
+"Z" [label=<<b>Z</b><br/><font point-size="8">latin<br/>capital<br/>letter z</font>> ]
+"z" [label=<<b>z</b><br/><font point-size="8">latin<br/>small<br/>letter z</font>> ]
+"IJ" [label=<<b>IJ</b>> ]
+"ij" [label=<<b>ij</b>> ]
 "ss" [label=<<b>ss</b>> ]
 "SS" [label=<<b>SS</b>> ]
 "fi" [label=<<b>fi</b>> ]
@@ -78,52 +85,13 @@ node [style="rounded" ]
 "ʼ" [label=<<b>ʼ</b><br/><font point-size="8">modifier<br/>letter apostrophe</font>> ]
 "ʻ" [label=<<b>ʻ</b><br/><font point-size="8">modifier<br/>letter turned<br/>comma</font>> ]
 "՚" [label=<<b>՚</b><br/><font point-size="8">armenian<br/>apostrophe</font>> ]
-"þ" [label=<<b>þ</b><br/><font point-size="8">latin<br/>small<br/>letter thorn</font>> ]
-"HT" [label=<<b>HT</b>> ]
-"LF" [label=<<b>LF</b>> ]
-"LT" [label=<<b>LT</b>> ]
-"FF" [label=<<b>FF</b>> ]
-"CR" [label=<<b>CR</b>> ]
-"NL" [label=<<b>NL</b>> ]
-" " [label=<<b> </b><br/><font point-size="8">no-break<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">figure<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">en<br/>quad</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">em<br/>quad</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">en<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">em<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">three-per-em<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">four-per-em<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">six-per-em<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">punctuation<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">thin<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">hair<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">line<br/>separator</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">paragraph<br/>separator</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">narrow<br/>no-break<br/>space</font>> ]
-" " [label=<<b> </b><br/><font point-size="8">medium<br/>mathematical<br/>space</font>> ]
-"　" [label=<<b>　</b><br/><font point-size="8">ideographic<br/>space</font>> ]
-"​" [label=<<b>​</b><br/><font point-size="8">zero<br/>width<br/>space</font>> ]
-"‌" [label=<<b>‌</b><br/><font point-size="8">zero<br/>width<br/>non-joiner</font>> ]
-"‍" [label=<<b>‍</b><br/><font point-size="8">zero<br/>width<br/>joiner</font>> ]
-"⁠" [label=<<b>⁠</b><br/><font point-size="8">word<br/>joiner</font>> ]
 "=" [label=<<b>=</b><br/><font point-size="8">equals<br/>sign</font>> ]
 "_" [label=<<b>_</b><br/><font point-size="8">low<br/>line</font>> ]
 "–" [label=<<b>–</b><br/><font point-size="8">en<br/>dash</font>> ]
 "—" [label=<<b>—</b><br/><font point-size="8">em<br/>dash</font>> ]
 "―" [label=<<b>―</b><br/><font point-size="8">horizontal<br/>bar</font>> ]
 "‑" [label=<<b>‑</b><br/><font point-size="8">non-breaking<br/>hyphen</font>> ]
-"¢" [label=<<b>¢</b><br/><font point-size="8">cent<br/>sign</font>> ]
-"€" [label=<<b>€</b><br/><font point-size="8">euro<br/>sign</font>> ]
-"£" [label=<<b>£</b><br/><font point-size="8">pound<br/>sign</font>> ]
-"₤" [label=<<b>₤</b><br/><font point-size="8">lira<br/>sign</font>> ]
-"ƒ" [label=<<b>ƒ</b><br/><font point-size="8">latin<br/>small<br/>letter f<br/>with<br/>hook</font>> ]
 "ſ" [label=<<b>ſ</b><br/><font point-size="8">latin<br/>small<br/>letter long<br/>s</font>> ]
-"쒰" [label=<<b>쒰</b><br/><font point-size="8">hangul<br/>syllable<br/>sswess</font>> ]
-"쒱" [label=<<b>쒱</b><br/><font point-size="8">hangul<br/>syllable<br/>ssweng</font>> ]
-"얁" [label=<<b>얁</b><br/><font point-size="8">hangul<br/>syllable<br/>yanj</font>> ]
-"얂" [label=<<b>얂</b><br/><font point-size="8">hangul<br/>syllable<br/>yanh</font>> ]
-"Ÿ" [label=<<b>Ÿ</b><br/><font point-size="8">latin<br/>capital<br/>letter y<br/>with<br/>diaeresis</font>> ]
-"ÿ" [label=<<b>ÿ</b><br/><font point-size="8">latin<br/>small<br/>letter y<br/>with<br/>diaeresis</font>> ]
 "Ă" [label=<<b>Ă</b><br/><font point-size="8">latin<br/>capital<br/>letter a<br/>with<br/>breve</font>> ]
 "ă" [label=<<b>ă</b><br/><font point-size="8">latin<br/>small<br/>letter a<br/>with<br/>breve</font>> ]
 "Ǎ" [label=<<b>Ǎ</b><br/><font point-size="8">latin<br/>capital<br/>letter a<br/>with<br/>caron</font>> ]
@@ -156,18 +124,49 @@ node [style="rounded" ]
 "ĭ" [label=<<b>ĭ</b><br/><font point-size="8">latin<br/>small<br/>letter i<br/>with<br/>breve</font>> ]
 "Ǐ" [label=<<b>Ǐ</b><br/><font point-size="8">latin<br/>capital<br/>letter i<br/>with<br/>caron</font>> ]
 "ǐ" [label=<<b>ǐ</b><br/><font point-size="8">latin<br/>small<br/>letter i<br/>with<br/>caron</font>> ]
+"İ" [label=<<b>İ</b><br/><font point-size="8">latin<br/>capital<br/>letter i<br/>with<br/>dot<br/>above</font>> ]
+"ı" [label=<<b>ı</b><br/><font point-size="8">latin<br/>small<br/>letter dotless<br/>i</font>> ]
 "Ĵ" [label=<<b>Ĵ</b><br/><font point-size="8">latin<br/>capital<br/>letter j<br/>with<br/>circumflex</font>> ]
 "ĵ" [label=<<b>ĵ</b><br/><font point-size="8">latin<br/>small<br/>letter j<br/>with<br/>circumflex</font>> ]
-"J̌" [label=<<b>J̌</b>> ]
 "ǰ" [label=<<b>ǰ</b><br/><font point-size="8">latin<br/>small<br/>letter j<br/>with<br/>caron</font>> ]
 "Ḱ" [label=<<b>Ḱ</b><br/><font point-size="8">latin<br/>capital<br/>letter k<br/>with<br/>acute</font>> ]
 "ḱ" [label=<<b>ḱ</b><br/><font point-size="8">latin<br/>small<br/>letter k<br/>with<br/>acute</font>> ]
 "Ǩ" [label=<<b>Ǩ</b><br/><font point-size="8">latin<br/>capital<br/>letter k<br/>with<br/>caron</font>> ]
 "ǩ" [label=<<b>ǩ</b><br/><font point-size="8">latin<br/>small<br/>letter k<br/>with<br/>caron</font>> ]
+"Ł" [label=<<b>Ł</b><br/><font point-size="8">latin<br/>capital<br/>letter l<br/>with<br/>stroke</font>> ]
+"ł" [label=<<b>ł</b><br/><font point-size="8">latin<br/>small<br/>letter l<br/>with<br/>stroke</font>> ]
+"Ĺ" [label=<<b>Ĺ</b><br/><font point-size="8">latin<br/>capital<br/>letter l<br/>with<br/>acute</font>> ]
+"ĺ" [label=<<b>ĺ</b><br/><font point-size="8">latin<br/>small<br/>letter l<br/>with<br/>acute</font>> ]
+"Ḿ" [label=<<b>Ḿ</b><br/><font point-size="8">latin<br/>capital<br/>letter m<br/>with<br/>acute</font>> ]
+"ḿ" [label=<<b>ḿ</b><br/><font point-size="8">latin<br/>small<br/>letter m<br/>with<br/>acute</font>> ]
+"Ń" [label=<<b>Ń</b><br/><font point-size="8">latin<br/>capital<br/>letter n<br/>with<br/>acute</font>> ]
+"ń" [label=<<b>ń</b><br/><font point-size="8">latin<br/>small<br/>letter n<br/>with<br/>acute</font>> ]
+"Ṕ" [label=<<b>Ṕ</b><br/><font point-size="8">latin<br/>capital<br/>letter p<br/>with<br/>acute</font>> ]
+"ṕ" [label=<<b>ṕ</b><br/><font point-size="8">latin<br/>small<br/>letter p<br/>with<br/>acute</font>> ]
+"Ŕ" [label=<<b>Ŕ</b><br/><font point-size="8">latin<br/>capital<br/>letter r<br/>with<br/>acute</font>> ]
+"ŕ" [label=<<b>ŕ</b><br/><font point-size="8">latin<br/>small<br/>letter r<br/>with<br/>acute</font>> ]
+"Ŝ" [label=<<b>Ŝ</b><br/><font point-size="8">latin<br/>capital<br/>letter s<br/>with<br/>circumflex</font>> ]
+"ŝ" [label=<<b>ŝ</b><br/><font point-size="8">latin<br/>small<br/>letter s<br/>with<br/>circumflex</font>> ]
+"Š" [label=<<b>Š</b><br/><font point-size="8">latin<br/>capital<br/>letter s<br/>with<br/>caron</font>> ]
+"š" [label=<<b>š</b><br/><font point-size="8">latin<br/>small<br/>letter s<br/>with<br/>caron</font>> ]
+"Ś" [label=<<b>Ś</b><br/><font point-size="8">latin<br/>capital<br/>letter s<br/>with<br/>acute</font>> ]
+"ś" [label=<<b>ś</b><br/><font point-size="8">latin<br/>small<br/>letter s<br/>with<br/>acute</font>> ]
+"Ẃ" [label=<<b>Ẃ</b><br/><font point-size="8">latin<br/>capital<br/>letter w<br/>with<br/>acute</font>> ]
+"ẃ" [label=<<b>ẃ</b><br/><font point-size="8">latin<br/>small<br/>letter w<br/>with<br/>acute</font>> ]
 "Ý" [label=<<b>Ý</b><br/><font point-size="8">latin<br/>capital<br/>letter y<br/>with<br/>acute</font>> ]
 "ý" [label=<<b>ý</b><br/><font point-size="8">latin<br/>small<br/>letter y<br/>with<br/>acute</font>> ]
 "Ỳ" [label=<<b>Ỳ</b><br/><font point-size="8">latin<br/>capital<br/>letter y<br/>with<br/>grave</font>> ]
 "ỳ" [label=<<b>ỳ</b><br/><font point-size="8">latin<br/>small<br/>letter y<br/>with<br/>grave</font>> ]
+"Ŷ" [label=<<b>Ŷ</b><br/><font point-size="8">latin<br/>capital<br/>letter y<br/>with<br/>circumflex</font>> ]
+"ŷ" [label=<<b>ŷ</b><br/><font point-size="8">latin<br/>small<br/>letter y<br/>with<br/>circumflex</font>> ]
+"Ź" [label=<<b>Ź</b><br/><font point-size="8">latin<br/>capital<br/>letter z<br/>with<br/>acute</font>> ]
+"ź" [label=<<b>ź</b><br/><font point-size="8">latin<br/>small<br/>letter z<br/>with<br/>acute</font>> ]
+"Ẑ" [label=<<b>Ẑ</b><br/><font point-size="8">latin<br/>capital<br/>letter z<br/>with<br/>circumflex</font>> ]
+"ẑ" [label=<<b>ẑ</b><br/><font point-size="8">latin<br/>small<br/>letter z<br/>with<br/>circumflex</font>> ]
+"Ž" [label=<<b>Ž</b><br/><font point-size="8">latin<br/>capital<br/>letter z<br/>with<br/>caron</font>> ]
+"ž" [label=<<b>ž</b><br/><font point-size="8">latin<br/>small<br/>letter z<br/>with<br/>caron</font>> ]
+"Ÿ" [label=<<b>Ÿ</b><br/><font point-size="8">latin<br/>capital<br/>letter y<br/>with<br/>diaeresis</font>> ]
+"ÿ" [label=<<b>ÿ</b><br/><font point-size="8">latin<br/>small<br/>letter y<br/>with<br/>diaeresis</font>> ]
 "ĳ" [label=<<b>ĳ</b><br/><font point-size="8">latin<br/>small<br/>ligature<br/>ij</font>> ]
 "Ĳ" [label=<<b>Ĳ</b><br/><font point-size="8">latin<br/>capital<br/>ligature<br/>ij</font>> ]
 "ß" [label=<<b>ß</b><br/><font point-size="8">latin<br/>small<br/>letter sharp<br/>s</font>> ]
@@ -219,35 +218,6 @@ node [style="rounded" ]
 "ʼ" -> "'"
 "ʻ" -> "'"
 "՚" -> "'"
-"þ" -> "?"
-"HT" -> " "
-"LF" -> " "
-"LT" -> " "
-"FF" -> " "
-"CR" -> " "
-"NL" -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-" " -> " "
-"　" -> " "
-"​" -> " "
-"‌" -> " "
-"‍" -> " "
-"⁠" -> " "
-"﻿" -> " "
 "`" -> "'"
 "´" -> "'"
 "\\" -> "/"
@@ -257,18 +227,7 @@ node [style="rounded" ]
 "—" -> "-"
 "―" -> "-"
 "‑" -> "-"
-"¢" -> "cent"
-"€" -> "euro"
-"£" -> "pond"
-"₤" -> "pond"
-"ƒ" -> "gulden"
 "ſ" -> "s"
-"쒰" -> "I"
-"쒱" -> "i"
-"얁" -> "L"
-"얂" -> "l"
-"Ÿ" -> "IJ"
-"ÿ" -> "ij"
 "Ă" -> "A"
 "ă" -> "a"
 "Ǎ" -> "A"
@@ -301,18 +260,49 @@ node [style="rounded" ]
 "ĭ" -> "i"
 "Ǐ" -> "I"
 "ǐ" -> "i"
+"İ" -> "I"
+"ı" -> "i"
 "Ĵ" -> "J"
 "ĵ" -> "j"
-"J̌" -> "J"
 "ǰ" -> "j"
 "Ḱ" -> "K"
 "ḱ" -> "k"
 "Ǩ" -> "K"
 "ǩ" -> "k"
+"Ł" -> "L"
+"ł" -> "l"
+"Ĺ" -> "L"
+"ĺ" -> "l"
+"Ḿ" -> "M"
+"ḿ" -> "m"
+"Ń" -> "N"
+"ń" -> "n"
+"Ṕ" -> "P"
+"ṕ" -> "p"
+"Ŕ" -> "R"
+"ŕ" -> "r"
+"Ŝ" -> "S"
+"ŝ" -> "s"
+"Š" -> "S"
+"š" -> "s"
+"Ś" -> "S"
+"ś" -> "s"
+"Ẃ" -> "W"
+"ẃ" -> "w"
 "Ý" -> "Y"
 "ý" -> "y"
 "Ỳ" -> "Y"
 "ỳ" -> "y"
+"Ŷ" -> "Y"
+"ŷ" -> "y"
+"Ź" -> "Z"
+"ź" -> "z"
+"Ẑ" -> "Z"
+"ẑ" -> "z"
+"Ž" -> "Z"
+"ž" -> "z"
+"Ÿ" -> "IJ"
+"ÿ" -> "ij"
 "ĳ" -> "ij"
 "Ĳ" -> "IJ"
 "ß" -> "ss"
@@ -361,4 +351,63 @@ node [style="rounded" ]
 "-" -> "REDUCE"
 " " -> "REDUCE"
 "*" -> "REDUCE"
+
+edge [style="dotted" arrowhead="none" ]
+node [shape="point" penwidth=0 label=""]
+"s" -> "sS"
+"S" -> "sS"
+"a" -> "aA"
+"A" -> "aA"
+"c" -> "cC"
+"C" -> "cC"
+"e" -> "eE"
+"E" -> "eE"
+"g" -> "gG"
+"G" -> "gG"
+"h" -> "hH"
+"H" -> "hH"
+"i" -> "iI"
+"I" -> "iI"
+"j" -> "jJ"
+"J" -> "jJ"
+"k" -> "kK"
+"K" -> "kK"
+"l" -> "lL"
+"L" -> "lL"
+"m" -> "mM"
+"M" -> "mM"
+"n" -> "nN"
+"N" -> "nN"
+"p" -> "pP"
+"P" -> "pP"
+"r" -> "rR"
+"R" -> "rR"
+"w" -> "wW"
+"W" -> "wW"
+"y" -> "yY"
+"Y" -> "yY"
+"z" -> "zZ"
+"Z" -> "zZ"
+"ij" -> "ijIJ"
+"IJ" -> "ijIJ"
+"ss" -> "ssSS"
+"SS" -> "ssSS"
+"oe" -> "oeOE"
+"OE" -> "oeOE"
+"ae" -> "aeAE"
+"AE" -> "aeAE"
+"tz" -> "tzTZ"
+"TZ" -> "tzTZ"
+"aa" -> "aaAA"
+"AA" -> "aaAA"
+"ao" -> "aoAO"
+"AO" -> "aoAO"
+"au" -> "auAU"
+"AU" -> "auAU"
+"av" -> "avAV"
+"AV" -> "avAV"
+"ay" -> "ayAY"
+"AY" -> "ayAY"
+"oo" -> "ooOO"
+"OO" -> "ooOO"
 }

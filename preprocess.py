@@ -3,6 +3,13 @@
 
 import unicodedata
 
+#TODO reduce als punt
+#TODO dotted naar reduced
+#TODO src reduced square
+#TODO f-ligaturen bij elkaar
+#TODO raksepS aanpassen
+#TODO spaties toch terug en reduced loskoppelen?!
+#TODO delete toevoegen
 if __name__ == '__main__':
     src_nodes = []
     dst_nodes = []
@@ -22,7 +29,7 @@ node [shape="box" fontsize=24 ]
                 chars = line[:-1].split('	')
                 char_src = chars[0]
                 char_dst = chars[1]
-                if char_dst in ('LEAVE', 'DELETE', ):
+                if char_dst in ('LEAVE', 'DELETE', ' ', ):
                     continue
                 if char_src not in src_nodes:
                     src_nodes.append(char_src)
@@ -58,6 +65,16 @@ node [shape="box" fontsize=24 ]
             gv_file.write('"{}" [label=<<b>{}</b>> ]\n'.format(node, node))
     for edge in edges:
         gv_file.write('{}\n'.format(edge))
+
+    gv_file.write('''
+edge [style="dotted" arrowhead="none" ]
+node [shape="point" penwidth=0 label=""]
+''')
+
+    for char_dst in dst_nodes:
+        if char_dst.islower() and char_dst.upper() in dst_nodes:
+            gv_file.write('"{}" -> "{}{}"\n'.format(char_dst, char_dst, char_dst.upper()))
+            gv_file.write('"{}" -> "{}{}"\n'.format(char_dst.upper(), char_dst, char_dst.upper()))
 
     gv_file.write('''}
 ''')
