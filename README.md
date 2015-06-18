@@ -20,6 +20,10 @@ Another form of deletion would be needed for superfluous characters such as "®"
 
 TODO: what has been created
 
+The definitions are found in [character-mapping.tsv](character-mapping.tsv).
+
+![Character mapping](character-mapping.png?raw=true "Correction of characters")
+
 Characters not included are:
 - characters which represent different characters in encoding problems such as þ in huidcrþme (huidcrème), blþren (blèren) and faþade (façade).
 - ligature characters which are rarely used, such as historical ligatures ᵫ (ue), ʤ (dz) and Ꜽ (AY).
