@@ -26,8 +26,9 @@ Characters not included are:
 - characters with diacritics which are rarely used, such as `ǰ` → `j`. However, this varies per character as `č` → `c` is supported.
 
 Out of scope here is:
-- casting between uppercase and lowercase and vice verse, see https://github.com/OpenTaal/case-casting
-- removal of diacritics on characters, https://github.com/OpenTaal/diacritic-removal
-- fixing character encoding errors such as Ã¼ en â€ž, see http://www.i18nqa.com/debug/utf8-debug.html
-- fixing url encoding errors such as %20, see http://www.w3schools.com/tags/ref_urlencode.asp
-- removal of HTML or XML elements such as &amp; and &nbsp;, see http://www.ascii.cl/htmlcodes.htm
+- casting between uppercase and lowercase and vice verse such as `a` ↔ `A` and `ç` ↔ `Ç`, see https://github.com/OpenTaal/case-casting
+- removal of diacritics on characters such as `à` → `a` and `Ç` → `C`, https://github.com/OpenTaal/diacritic-removal
+- fixing character Windows-1252 encoding errors such as `Ã¼` en `â€ž`, see http://www.i18nqa.com/debug/utf8-debug.html
+- fixing other character encoding errors such as `U+0131`, `0xFB` and `\x91`
+- fixing url encoding errors such as `%20`, see http://www.w3schools.com/tags/ref_urlencode.asp
+- removal of HTML or XML elements such as `&amp;` and `&nbsp;`, see http://www.ascii.cl/htmlcodes.htm
