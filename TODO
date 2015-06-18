@@ -1,0 +1,12 @@
+Optimise generation of SED file by grouping destination characters and use this approach as well for generation of GV files.
+
+Fix all characters that aren't directly supported by Graphviz
+
+#TODO  &amp;
+#TODO  &#9675;
+#TODO ://(http ,https, ftp, ...)
+#TODO known encoding errors
+
+188
+"	DELETE	QWERTY	quotation mark
+
