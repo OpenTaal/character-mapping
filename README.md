@@ -18,7 +18,7 @@ Sloppy typing or formatting can introduce multiple spaces where one space would 
 
 Another form of deletion would be needed for superfluous characters such as "®" and "™" but also for any keyboard character found on QWERTY, AZERTY and QWERTZ keyboards that might have been entered accidentally e.g. `¨` or have hitched along on a copy-paste action. Additionally, more exotic characters can be constructed by means of a compose key or dead key such as `ß` or `č` require some form of mapping as well.
 
-[wat is gemaakt]
+TODO: what has been created
 
 Characters not included are:
 - characters which represent different characters in encoding problems such as þ in huidcrþme (huidcrème), blþren (blèren) and faþade (façade).
@@ -26,9 +26,8 @@ Characters not included are:
 - characters with diacritics which are rarely used, such as `ǰ` → `j`. However, this varies per character as `č` → `c` is supported.
 
 Out of scope here is:
-- casting between uppercase and lowercase and vice verse
-- removal of diacritics on characters
-- fixing character encoding errors
-- fixing url encoding errors
-- removal of HTML or XML elements
-- mapping too exotic characters for the Dutch language
+- casting between uppercase and lowercase and vice verse, see https://github.com/OpenTaal/case-casting
+- removal of diacritics on characters, https://github.com/OpenTaal/diacritic-removal
+- fixing character encoding errors such as Ã¼ en â€ž, see http://www.i18nqa.com/debug/utf8-debug.html
+- fixing url encoding errors such as %20, see http://www.w3schools.com/tags/ref_urlencode.asp
+- removal of HTML or XML elements such as &amp; and &nbsp;, see http://www.ascii.cl/htmlcodes.htm
