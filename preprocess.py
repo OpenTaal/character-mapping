@@ -26,7 +26,7 @@ label="Character mapping"
 labelloc="c"
 node [shape="box" fontsize=24 ]
 ''')
-with open('character-mapping.tsv', 'r') as input_file:
+with open('character-mapping.tsv') as input_file:
     for line in input_file:
         if line != '\n' and line[0] != '#':
             chars = line[:-1].split('	')

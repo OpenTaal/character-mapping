@@ -1,2 +1,4 @@
 ./preprocess.py
-dot -Tpng character-mapping.gv -ocharacter-mapping.png
+SRC=character-mapping
+dot -Tpng $SRC.gv -o$SRC.png
+dot -Tsvg $SRC.gv -o$SRC.svg
